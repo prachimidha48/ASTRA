@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="suitGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+    <linearGradient id="visorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="58" fill="url(#bgGrad)" stroke="#e0f2fe" stroke-width="3" />
+  
+  <!-- Astronaut Torso / EVA Suit -->
+  <path d="M 24 116 Q 24 88 44 82 L 76 82 Q 96 88 96 116 Z" fill="url(#suitGrad)" stroke="#94a3b8" stroke-width="2" />
+  
+  <!-- Suit Collar Ring -->
+  <ellipse cx="60" cy="80" rx="22" ry="7" fill="#64748b" stroke="#334155" stroke-width="2" />
+  <ellipse cx="60" cy="79" rx="19" ry="5" fill="#e2e8f0" />
+  
+  <!-- Astronaut Helmet Outer Dome -->
+  <ellipse cx="60" cy="52" rx="28" ry="30" fill="url(#suitGrad)" stroke="#94a3b8" stroke-width="2" />
+  
+  <!-- Visor Assembly -->
+  <rect x="38" y="34" width="44" height="32" rx="16" fill="url(#visorGrad)" stroke="#38bdf8" stroke-width="2.5" />
+  
+  <!-- Visor Reflection Flare -->
+  <path d="M 44 42 Q 54 36 68 37 Q 60 42 46 47 Z" fill="#ffffff" opacity="0.45" />
+  <circle cx="74" cy="56" r="3.5" fill="#38bdf8" opacity="0.6" />
+  
+  <!-- Communication Mic / Sensor Beacon -->
+  <circle cx="34" cy="54" r="3.5" fill="#38bdf8" stroke="#0284c7" stroke-width="1.5" />
+  <circle cx="86" cy="54" r="3.5" fill="#38bdf8" stroke="#0284c7" stroke-width="1.5" />
+</svg>
